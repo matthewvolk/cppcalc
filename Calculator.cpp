@@ -10,7 +10,11 @@ public:
 
 int main()
 {
-  std::cout<< "I'm a calculator" <<endl;
+  int x, y, result;
+  char operatr;
+  cout<< "I'm a calculator" <<endl;
+  cout<< "Please enter num1, operator, num2: " <<endl;
+
 
   cin.ignore();
   cin.get();
