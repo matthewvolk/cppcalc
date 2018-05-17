@@ -6,7 +6,7 @@ class Calculator
 {
 public:
   int Calculate(int, int, char);
-}
+};
 
 int main()
 {
@@ -38,7 +38,6 @@ int Calculator::Calculate(int x, int y, char operatr)
     if (y != 0)
       return x / y;
   default:
-    cin >> x >> operatr >> y;
-    Calculate(x, y, operatr);
+    return 0;
   }
 }
